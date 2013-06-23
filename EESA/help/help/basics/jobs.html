@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="../styles.css" rel="stylesheet" type="text/css"/>
+        <title>Simulator Basics :: Jobs</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h2>Jobs</h2>    
+        Jobs are perhaps the most important part of the system. 
+        They represent an amount of work to be done by a <a href="">processor</a> 
+        and having the following characteristics:
+        <ul>
+            <li>Arrival Time</li>
+            <li>Deadline Time</li>
+            <li>Weight</li>
+        </ul>
+        From these basic properties, 2 others can be calculated:
+        <ul>
+            <li>Length [Deadline - Arrival]</li>
+            <li>Density [Weight / Length]</li>
+        </ul>
+        Jobs can be added to the system by using the <a href="">Add Job Window</a> 
+        as well as by <a href="">generating them</a> and <a href="">importing them</a> 
+        from other sources.
+        <h3>Results</h3>
+        When a simulation is run, each test must assign each job to one of the 
+        processors. This process of Job Assignment is handled by the selected 
+        <a href="">Job Assignment Algorithm</a>.
+        <p>
+        The results of this process are then shown on the 
+        <a href="">Results Data Panel</a>, which provides tabulated data and 
+        visualisations of the results of the tests performed.</p>
+    </body>
+</html>

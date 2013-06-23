@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="../styles.css" rel="stylesheet" type="text/css"/>
+        <title>Simulator Architecture :: Speed Scaling Algorithms</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h2>Developing Speed Scaling Algorithms</h2>
+        <h3>Methods</h3>
+        <dl>
+            <dt class="methodName">runSpeedScaling(eesa.core.Test t, eesa.core.ProcessorResult p)</dt>
+            <dd>This algorithm performs the speed scaling.<br /> 
+                The first argument is the <span class="className">Test</span> for which you are running the speed scaling.
+                can be called to retrieve all the Jobs. 
+                The second argument provides with the <span class="className">ProcessorResult</span>.
+                To run the algorithm, retrieve the jobs for the Processor 
+                (<span class="methodName">p.getUnassignedJobs()</span>), create 
+                <span class="className">eesa.core.JobResult</span> and 
+                <span class="className">eesa.core.ProcessorSpeedTimePeriod</span> objects
+                and add them to the ProcessorResult object.
+                If your algorithm has specific conditions regarding the jobs or 
+                encounters an error, it is acceptable to throw a 
+                <span class="className">eesa.exceptions.AlgorithmException</span>
+                (which should be constructed with a 
+                <span class="className">java.lang.String</span> message 
+                detailing the problem for the user. This will be presented 
+                accordingly by the UI.
+            </dd>
+            <dd><strong>Return Type:</strong> <span class="className">void</span></dd>            
+            <dt class="methodName">toString()</dt>
+            <dd>Although a default version of this is created by Java, it is a 
+                good idea to override this. It is used as the name of the 
+                algorithm in multiple locations, such as when selecting algorithms.</dd>
+            <dd><strong>Return Type:</strong> <span class="className">java.lang.String</span></dd>
+            <dt class="methodName">getDescription()</dt>
+            <dd>This returns a long description of the algorithm. Things 
+                commonly included here are the paper in which it was first 
+                described, the authors and remarks on running time and optimality.</dd>
+             <dd><strong>Return Type:</strong> <span class="className">java.lang.String</span></dd>
+        </dl>
+    </body>
+</html>

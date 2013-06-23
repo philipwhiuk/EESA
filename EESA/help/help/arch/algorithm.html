@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="../styles.css" rel="stylesheet" type="text/css"/>
+        <title>Algorithm Loading</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h2>Algorithm Loading</h2>
+        <p>The simulator allows additional algorithms to be loaded. To develop an algorithm a number of steps must be followed.</p>
+        <p>Assuming you are using an IDE to develop the algorithm:</p>
+        <ol>
+            <li>Create a Java Project</li>
+            <li>Add 'EESA-Core' as a project library</li>
+            <li>Create a new class for each algorithm, implementing the desired Algorithm interface 
+                (<span class="className">eesa.core.JobAssignmentAlgorithm</span> or <span class="className">eesa.core.SpeedScalingAlgorithm</span>).</li>
+            <li>Compile the project into a JAR file</li>
+            <li>Place the .jar file in the directly in which EESA is installed</li>
+            <li>Append the .jar file to the list in the <span class="fileName">EESA.bat</span> file</li> 
+            <li>Append the name of the algorithm(s) to the related <span class="fileName">.dat</span> file in the properties folder</li>
+        </ol>
+        <p>The algorithm will then be loaded and can be used as normal.</p>
+        <p><strong>Note:</strong> You may include other libraries (but remember to add them to 
+            .bat file and folder). However do not rely on other EESA modules 
+            (such as the GUI) as future updates will not attempt to maintain 
+            backwards compatability for the purposes of algorithm support.
+        <p>If you make an error in one of the steps, the simulator will inform you (to the best of it's ability) either via a warning window, or in the log files.</p>           
+    </body>
+</html>

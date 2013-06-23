@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE toc
+  PUBLIC 
+  "-//Sun Microsystems Inc.//DTD 
+   JavaHelp TOC Version 2.0//EN"
+  "http://java.sun.com/products/javahelp/toc_2_0.dtd">
+<toc version="2.0">
+  <tocitem image="toplevelfolder" text="EESA Simulator" target="eesa.intro">
+     <tocitem target="eesa.intro" text="Introduction" />
+     <tocitem text="Simulator Basics" target="basics.overview">
+        <tocitem text="Introduction" target="basics.intro" />
+        <tocitem text="Jobs" target="basics.jobs" />
+        <tocitem text="Tests" target="basics.tests" />
+        <tocitem text="Job Assignment Algorithms" target="basics.jaa" />
+        <tocitem text="Speed Scaling Algorithms" target="basics.ssa" />
+        <tocitem text="Results" target="basics.results" />
+        <tocitem text="Visualisation" target="basics.visualisation" />        
+        <tocitem text="Importing Data" target="basics.import">
+            <tocitem text="CSVs" target="basics.import.csv" />
+            <tocitem text="SQL" target="basics.import.sql" />
+            <tocitem text="XML" target="basics.import.xml" />
+        </tocitem>
+        <tocitem text="Exporting Data" target="basics.export">
+            <tocitem text="Images" target="basics.export.images" />
+            <tocitem text="CSVs" target="basics.export.csv" />
+            <tocitem text="SQL" target="basics.export.sql" />
+            <tocitem text="XML" target="basics.export.xml" />    
+        </tocitem>
+     </tocitem>
+     <tocitem text="Simulator Architecture" target="arch.overview">
+        <tocitem text="Algorithm Loading" target="arch.algorithm">
+            <tocitem text="Speed Scaling Algorithms" target="arch.ssa" />
+            <tocitem text="Job Assignment Algorithms" target="arch.jaa" />
+            <tocitem text="Combination Algorithms" target="arch.ca" />            
+        </tocitem>
+        <tocitem text="Database Sources" target="arch.db">
+            <tocitem text="Class Design: DB" target="arch.db.db" />
+            <tocitem text="Class Design: SelectQuery" target="arch.db.select" />
+            <tocitem text="Class Design: InsertQuery" target="arch.db.insert" />
+            <tocitem text="Class Design: JoinClause" target="arch.db.join" />
+            <tocitem text="Class Design: WhereClause" target="arch.db.where" />
+        </tocitem>
+        <tocitem text="GUI" target="arch.gui">
+            <tocitem text="Help Engines" target="arch.gui.help" />
+            <tocitem text="Alternatives" target="arch.gui.alt" />
+         </tocitem>
+     </tocitem>
+    <tocitem text="GUI" target="about">  
+        <tocitem text="Panels">
+            <tocitem text="Simulation Data Panel" target="eesa.gui.SimulationDataPanel" />    
+            <tocitem text="Results Data Panel" target="eesa.gui.ResultsDataPanel" />            
+        </tocitem>
+        <tocitem text="Charts">
+            <tocitem text="Energy Charts" target="eesa.gui.charts.EnergyCharts" />    
+            <tocitem text="Speed Charts" target="eesa.gui.charts.SpeedCharts" />
+            <tocitem text="Job Charts" target="eesa.gui.charts.JobCharts" />
+        </tocitem>          
+        <tocitem text="Tables">
+            <tocitem text="Jobs Table" target="eesa.gui.tables.JobSetTableModel" />    
+            <tocitem text="Tests Table" target="eesa.gui.tables.TestTableModel" />            
+            <tocitem text="Job Results Table" target="eesa.gui.tables.JobResultsTableModel" />    
+            <tocitem text="Time Periods Table" target="eesa.gui.tables.TimePeriodsTableModel" />                        
+        </tocitem>        
+        <tocitem text="Windows">
+            <tocitem text="Add Job" target="eesa.gui.windows.AddJobWindow" />    
+            <tocitem text="Alter Job" target="eesa.gui.windows.AlterJobWindow" />            
+            <tocitem text="Add Test" target="eesa.gui.windows.AddTestWindow" />    
+            <tocitem text="Alter Test" target="eesa.gui.windows.AlterTestWindow" />            
+            <tocitem text="Generate Jobs" target="eesa.gui.windows.JobGenerationWindow" /> 
+            <tocitem text="Data Import">
+                <tocitem text="Jobs" target="eesa.gui.windows.dataImport.jobs.ImportJobsWindow" />
+            </tocitem>
+            <tocitem text="Data Export">
+                <tocitem text="Jobs" target="eesa.gui.windows.dataExport.jobs.ExportJobsWindow" />
+                <tocitem text="Time Periods" target="eesa.gui.windows.dataExport.periods.ExportPeriodsWindow" />
+                <tocitem text="Job Results" target="eesa.gui.windows.dataExport.results.ExportResultsWindow" />
+            </tocitem>
+            <tocitem text="Image Export">
+                <tocitem text="Job Results Charts" target="eesa.gui.windows.imageExport.results.ExportResultsChartWindow" />
+                <tocitem text="Energy Chart" target="eesa.gui.windows.imageExport.energy.ExportEnergyChartWindow" />                
+                <tocitem text="Speed Chart" target="eesa.gui.windows.imageExport.speed.ExportSpeedChartWindow" />
+            </tocitem>
+            <tocitem text="Database">
+                <tocitem text="Add Table" target="eesa.gui.windows.db.AddDatabaseTableWindow" />
+                <tocitem text="Add Field" target="eesa.gui.windows.db.AddDatabaseFieldWindow" />
+                <tocitem text="Add Condition" target="eesa.gui.windows.db.AddDatabaseConditionWindow" />
+                <tocitem text="Add Sort" target="eesa.gui.windows.db.AddDatabaseSortWindow" />
+                <tocitem text="Build Retrieval Query" target="eesa.gui.windows.db.BuildRetrievalQueryWindow" />
+            </tocitem>
+        </tocitem> 
+    </tocitem>         
+    <tocitem text="About" target="about">  
+        <tocitem text="Development" target="about.development" />    
+        <tocitem text="Legal Info" target="about.legal" />            
+    </tocitem>
+    <tocitem image="toplevelfolder" text="JavaHelp"> 
+    <tocitem text="Using the Help System" target="javahelp.using" />
+    </tocitem>
+</toc> 

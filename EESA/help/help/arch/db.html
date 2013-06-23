@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="../styles.css" rel="stylesheet" type="text/css"/>
+        <title>Adding Database Engines</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h2>Database Architecture</h2>
+        <p>The database architecture allows to to implement new database engines
+            by implementing the provided interfaces and abstract classes. Once 
+            this is done, simply add the required archives to the "bat" file and 
+            add the connection to the database properties file. The database 
+            manager will then load the database and allow connections to be made 
+            to it</p>
+        <h3>Abstract Class List</h3>
+        <ul>
+            <li class="className">eesa.db.Database</li>
+            <li class="className">eesa.db.Field>
+        </ul>
+        <h3>Interface List</h3>
+        <ul>
+            <li class="className">eesa.db.DatabaseConnector</li>
+            <li class="className">eesa.db.SelectQuery</li>
+            <li class="className">eesa.db.InsertQuery</li>
+            <li class="className">eesa.db.WhereClause</li>
+            <li class="className">eesa.db.OrderByClause</li>
+        </ul>
+    </body>
+</html>

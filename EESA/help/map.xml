@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE map
+    PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 2.0//EN"
+    "http://java.sun.com/products/javahelp/map_2_0.dtd">
+<map version="2.0">    
+    <mapID target="eesa.about" url="help/eesa/about/index.html" />
+    <mapID target="eesa.about.development" url="help/eesa/about/development.html" />    
+    <mapID target="eesa.about.legal" url="help/eesa/about/legal.html"/>
+    <mapID target="eesa.intro" url="help/eesa/intro.html" />
+    <mapID target="eesa.overview" url="help/eesa/overview.html" />    
+    <mapID target="eesa.study" url="help/eesa/study.html"/>
+    <mapID target="eesa.research" url="help/eesa/research.html" />
+    <mapID target="eesa.work" url="help/eesa/work.html" />
+    <mapID target="basics.overview" url="help/basics/overview.html" />
+    <mapID target="basics.intro" url="help/basics/intro.html" />
+    <mapID target="basics.jobs" url="help/basics/jobs.html" />
+    <mapID target="basics.tests" url="help/basics/tests.html" />
+    <mapID target="basics.results" url="help/basics/results.html" />
+    <mapID target="basics.jaa" url="help/basics/jaa.html" />
+    <mapID target="basics.ssa" url="help/basics/ssa.html" />
+    <mapID target="basics.visualisation" url="help/basics/visualisation.html" />
+    <mapID target="basics.import" url="help/basics/import/index.html" />
+    <mapID target="basics.import.csv" url="help/basics/import/csv.html" />
+    <mapID target="basics.import.sql" url="help/basics/import/sql.html" />
+    <mapID target="basics.import.xml" url="help/basics/import/xml.html" />
+    <mapID target="basics.export" url="help/basics/export/" />
+    <mapID target="basics.export" url="help/basics/export/images.html" />    
+    <mapID target="basics.export.csv" url="help/basics/export/csv.html" />
+    <mapID target="basics.export.sql" url="help/basics/export/sql.html" />
+    <mapID target="basics.export.xml" url="help/basics/export/xml.html" /> 
+    <mapID target="basics.export.images" url="help/basics/export/images.html" />
+    <mapID target="arch.overview" url="help/arch/overview.html" />    
+    <mapID target="arch.algorithm" url="help/arch/algorithm.html" />    
+    <mapID target="arch.ssa" url="help/arch/ssa.html" />  
+    <mapID target="arch.jaa" url="help/arch/jaa.html" />  
+    <mapID target="arch.ca" url="help/arch/ca.html" />
+    <mapID target="arch.db" url="help/arch/db.html" />
+    <mapID target="arch.gui" url="help/arch/gui/index.html" />        
+    <mapID target="arch.gui.help" url="help/arch/gui/help.html" />        
+    <mapID target="arch.gui.alt" url="help/arch/gui/alt.html" />   
+    <mapID target="eesa.gui.Application" url="help/gui/Application.html" />    
+    <mapID target="eesa.gui.ResultsDataPanel" url="help/gui/ResultsDataPanel.html" />
+    <mapID target="eesa.gui.SimulationDataPanel" url="help/gui/SimulationDataPanel.html" />
+    <mapID target="eesa.gui.charts.EnergyCharts" url="help/gui/charts/EnergyCharts.html" />
+    <mapID target="eesa.gui.charts.SpeedCharts" url="help/gui/charts/SpeedCharts.html" />
+    <mapID target="eesa.gui.charts.JobCharts" url="help/gui/charts/JobCharts.html" />
+    <mapID target="eesa.gui.tables.JobSetTableModel" url="help/gui/tables/JobSetTableModel.html" />
+    <mapID target="eesa.gui.tables.JobResultsTableModel" url="help/gui/tables/JobSetTableModel.html" />
+    <mapID target="eesa.gui.tables.TestTableModel" url="help/gui/tables/TestTableModel.html" />  
+    <mapID target="eesa.gui.tables.TimePeriodsTableModel" url="help/gui/tables/TimePeriodsTableModel.html" />  
+    <mapID target="eesa.gui.windows.AddJobWindow" url="help/gui/windows/AddJobWindow.html" />  
+    <mapID target="eesa.gui.windows.AlterJobWindow" url="help/gui/windows/AlterJobWindow.html" />  
+    <mapID target="eesa.gui.windows.AddTestWindow" url="help/gui/windows/AddTestWindow.html" />
+    <mapID target="eesa.gui.windows.AlterTestWindow" url="help/gui/windows/AlterTestWindow.html" />
+    <mapID target="eesa.gui.windows.JobGenerationWindow" url="help/gui/windows/JobGenerationWindow.html" />
+    <mapID target="eesa.gui.windows.dataExport.jobs.ExportJobsWindow" url="help/gui/windows/dataExport/jobs/ExportJobsWindow.html" />
+    <mapID target="eesa.gui.windows.dataExport.periods.ExportPeriodsWindow" url="help/gui/windows/dataExport/periods/ExportPeriodsWindow.html" />
+    <mapID target="eesa.gui.windows.dataExport.results.ExportResultsWindow" url="help/gui/windows/dataExport/results/ExportResultsWindow.html" />
+    <mapID target="eesa.gui.windows.dataImport.jobs.ImportJobsWindow" url="help/gui/windows/dataImport/jobs/ImportJobsWindow.html" />
+    <mapID target="eesa.gui.windows.imageExport.energy.ExportEnergyChartWindow" url="help/gui/windows/imageExport/energy/ExportEnergyChartWindow.html" />
+    <mapID target="eesa.gui.windows.imageExport.results.ExportResultsChartWindow" url="help/gui/windows/imageExport/results/ExportResultsChartWindow.html" />
+    <mapID target="eesa.gui.windows.imageExport.speed.ExportSpeedChartWindow" url="help/gui/windows/imageExport/speed/ExportSpeedChartWindow.html" />
+
+    <mapID target="eesa.gui.windows.db.AddDatabaseConditionWindow" 
+    url="help/gui/windows/db/AddDatabaseConditionWindow.html" />
+    <mapID target="eesa.gui.windows.db.AddDatabaseFieldWindow" 
+    url="help/gui/windows/db/AddDatabaseFieldWindow.html" />
+    <mapID target="eesa.gui.windows.db.AddDatabaseSortWindow" 
+    url="help/gui/windows/db/AddDatabaseFieldWindow.html" />
+    <mapID target="eesa.gui.windows.db.AddDatabaseTableWindow" 
+    url="help/gui/windows/db/AddDatabaseTableWindow.html" />
+    <mapID target="eesa.gui.windows.db.BuildRetrievalQueryWindow" 
+    url="help/gui/windows/db/BuildRetrievalQueryWindow.html" />
+
+    <mapID target="javahelp.using" url="help/javahelp/using.html" />
+</map>

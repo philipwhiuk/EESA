@@ -1,0 +1,5 @@
+eesa.algorithms.ssa.AVRAlgorithm
+eesa.algorithms.ssa.OAAlgorithm
+eesa.algorithms.ssa.YDSAlgorithm
+eesa.algorithms.ssa.NaiveJobCompletionAlgorithm
+eesa.algorithms.ssa.NaiveMinimumSpeedAlgorithm

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="../styles.css" rel="stylesheet" type="text/css"/>
+        <title>Simulator Architecture :: Job Assignment Algorithms</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h2>Developing Job Assignment Algorithms</h2>
+        <h3>Methods</h3>
+        <dl>
+            <dt class="methodName">runJobAssignment(eesa.core.JobSet js, eesa.core. Processor[] processors)</dt>
+            <dd>This algorithm performs the assignment.<br /> 
+                You are passed the JobSet, on which <span class="methodName">getJobs()</span> 
+                can be called to retrieve all the Jobs. 
+                The second argument provides you will an array list of all the processors.
+                The return value is a set of ProcessorResult[] objects each of 
+                which should be constructed as follows, to ensure they are 
+                attached to a processor:
+                <pre>ProcessorResult procResult = new ProcessorResult(processor)</pre>
+                If your algorithm has specific conditions regarding the jobs or 
+                encounters an error, it is acceptable to throw a 
+                <span class="className">eesa.exceptions.AlgorithmException</span>
+                (which should be constructed with a 
+                <span class="className">java.lang.String</span> message 
+                detailing the problem for the user. This will be presented 
+                accordingly by the UI.
+            </dd>
+            <dd><strong>Return Type:</strong> <span class="className">eesa.core.ProcessorResult[]</span></dd>            
+            <dt class="methodName">toString()</dt>
+            <dd>Although a default version of this is created by Java, it is a 
+                good idea to override this. It is used as the name of the 
+                algorithm in multiple locations, such as when selecting algorithms.</dd>
+            <dd><strong>Return Type:</strong> <span class="className">java.lang.String</span></dd>
+            <dt class="methodName">getDescription()</dt>
+            <dd>This returns a long description of the algorithm. Things 
+                commonly included here are the paper in which it was first 
+                described, the authors and remarks on running time and optimality.</dd>
+             <dd><strong>Return Type:</strong> <span class="className">java.lang.String</span></dd>
+        </dl>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+body {
+    font-family: Arial;
+    font-size: 9px;
+}
+h2, h3 {
+    font-family: "Trebuchet MS";
+}
+p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.className, .fileName, .methodName {
+    font-family: "Courier New", monospace;
+}
