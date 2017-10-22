@@ -3,9 +3,9 @@ package eesa.gui.views;
 import java.util.ArrayList;
 import java.util.List;
 
-import eesa.core.Processor;
-import eesa.core.Test;
-import eesa.core.TestList;
+import com.whiuk.philip.eesa.core.Processor;
+import com.whiuk.philip.eesa.core.Test;
+import com.whiuk.philip.eesa.core.TestList;
 import eesa.gui.ResultsDataPanel;
 import eesa.gui.event.ProcessorViewEventListener;
 import eesa.gui.event.TestViewEventListener;

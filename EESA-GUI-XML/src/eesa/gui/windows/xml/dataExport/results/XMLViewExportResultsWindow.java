@@ -6,7 +6,7 @@
  */
 package eesa.gui.windows.xml.dataExport.results;
 
-import eesa.xml.dataExport.XMLJobResultDataExport;
+import com.whiuk.philip.eesa.xml.dataExport.XMLJobResultDataExport;
 
 /**
  * Allows the user to view data before exporting it.

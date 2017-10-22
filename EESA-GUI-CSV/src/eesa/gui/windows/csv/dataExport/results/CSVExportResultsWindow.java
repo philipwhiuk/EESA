@@ -5,7 +5,7 @@
  */
 package eesa.gui.windows.csv.dataExport.results;
 
-import eesa.csv.dataExport.CSVJobResultDataExport;
+import com.whiuk.philip.eesa.csv.dataExport.CSVJobResultDataExport;
 import eesa.gui.windows.dataExport.results.AbstractExportResultsWindow;
 
 /**

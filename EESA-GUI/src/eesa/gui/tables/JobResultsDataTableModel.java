@@ -2,7 +2,7 @@ package eesa.gui.tables;
 
 import eesa.gui.event.JobResultViewEvent;
 import eesa.gui.views.JobResultsView;
-import eesa.core.JobResult;
+import com.whiuk.philip.eesa.core.JobResult;
 import eesa.gui.event.JobResultViewEventListener;
 import java.util.logging.Level;
 import java.util.logging.Logger;

@@ -1,10 +1,10 @@
 package eesa.gui.dataSource;
 
 import java.lang.reflect.InvocationTargetException;
-import eesa.core.Simulation;
-import eesa.dataSource.SimulationDataType;
-import eesa.exceptions.SimulationLoadingException;
-import eesa.exceptions.SimulationSavingException;
+import com.whiuk.philip.eesa.core.Simulation;
+import com.whiuk.philip.eesa.dataSource.SimulationDataType;
+import com.whiuk.philip.eesa.exceptions.SimulationLoadingException;
+import com.whiuk.philip.eesa.exceptions.SimulationSavingException;
 
 /**
  * Manages the GUI handling of loading Simulations from data sources.
@@ -31,7 +31,7 @@ public class GUISimulationDataType extends SimulationDataType {
 	 * 
 	 * @param ds data source
 	 */
-	public static void setDefaultDataSource(
+	public static void setDefaultGUIDataSource(
 			final Class<? extends GUISimulationDataType> ds) {
 		defaultDataSource = ds;
 	}
@@ -60,7 +60,7 @@ public class GUISimulationDataType extends SimulationDataType {
 	 * @return simulation
 	 * @throws SimulationLoadingException exception
 	 */
-	public static Simulation loadSimulation(
+	public static Simulation loadGUISimulation(
 			final Class<? extends GUISimulationDataType> source) 
 			throws SimulationLoadingException {
 		try {

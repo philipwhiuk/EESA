@@ -5,7 +5,7 @@
  */
 package eesa.gui.windows.dataExport.periods;
 
-import eesa.dataExport.PeriodDataExport;
+import com.whiuk.philip.eesa.dataExport.PeriodDataExport;
 import eesa.gui.Application;
 import eesa.gui.PluginConnector;
 import eesa.gui.help.HelpManager;

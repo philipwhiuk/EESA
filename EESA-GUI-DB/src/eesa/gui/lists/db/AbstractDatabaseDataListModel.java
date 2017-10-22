@@ -1,8 +1,9 @@
 package eesa.gui.lists.db;
 
-import eesa.db.Database;
 import eesa.gui.windows.db.DatabaseWindow;
 import javax.swing.AbstractListModel;
+
+import com.whiuk.philip.eesa.db.Database;
 
 /**
  * Provides an abstract list model for databases.

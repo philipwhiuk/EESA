@@ -5,7 +5,8 @@
  */
 package eesa.gui.windows.csv.dataExport.periods;
 
-import eesa.csv.dataExport.CSVPeriodDataExport;
+import com.whiuk.philip.eesa.csv.dataExport.CSVPeriodDataExport;
+
 import eesa.gui.windows.dataExport.periods.AbstractExportPeriodsWindow;
 
 /**

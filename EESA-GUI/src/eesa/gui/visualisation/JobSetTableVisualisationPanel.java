@@ -12,7 +12,7 @@ import javax.swing.JTextField;
 import javax.swing.RowFilter;
 import javax.swing.table.TableRowSorter;
 
-import eesa.core.JobSet;
+import com.whiuk.philip.eesa.core.JobSet;
 import eesa.gui.DataVisualisationPanel;
 import eesa.gui.SimulationDataPanel;
 import eesa.gui.tables.JobSetTableModel;

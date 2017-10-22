@@ -1,6 +1,6 @@
 package eesa.gui.help;
 
-import eesa.exceptions.EESAException;
+import com.whiuk.philip.eesa.exceptions.EESAException;
 
 /**
  * Describes an exception that is thrown by a help system.

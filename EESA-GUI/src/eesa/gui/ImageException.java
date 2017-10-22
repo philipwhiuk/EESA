@@ -1,6 +1,6 @@
 package eesa.gui;
 
-import eesa.exceptions.EESAException;
+import com.whiuk.philip.eesa.exceptions.EESAException;
 
 /**
  * Describes an exception that was thrown during image generation / rendering / usage.

@@ -15,15 +15,16 @@ import javax.swing.JTextField;
 import javax.swing.LayoutStyle;
 import javax.swing.WindowConstants;
 
-import eesa.db.Database;
-import eesa.db.DatabaseCondition;
-import eesa.db.DatabaseConnector;
-import eesa.db.DatabaseSort;
-import eesa.db.DatabaseTable;
-import eesa.db.Field;
-import eesa.db.Operator;
-import eesa.db.QueryObject;
-import eesa.db.SelectQuery;
+import com.whiuk.philip.eesa.db.Database;
+import com.whiuk.philip.eesa.db.DatabaseCondition;
+import com.whiuk.philip.eesa.db.DatabaseConnector;
+import com.whiuk.philip.eesa.db.DatabaseSort;
+import com.whiuk.philip.eesa.db.DatabaseTable;
+import com.whiuk.philip.eesa.db.Field;
+import com.whiuk.philip.eesa.db.Operator;
+import com.whiuk.philip.eesa.db.QueryObject;
+
+import com.whiuk.philip.eesa.db.SelectQuery;
 import eesa.gui.lists.db.DatabaseFieldListModel;
 import eesa.gui.lists.db.DatabaseSortListModel;
 import eesa.gui.lists.db.DatabaseTableListModel;

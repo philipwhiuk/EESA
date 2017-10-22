@@ -9,10 +9,10 @@ package eesa.gui.windows;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import eesa.algorithms.AssignmentAndScalingAlgorithm;
-import eesa.algorithms.JobAssignmentAlgorithm;
-import eesa.algorithms.SpeedScalingAlgorithm;
-import eesa.core.Test;
+import com.whiuk.philip.eesa.algorithms.AssignmentAndScalingAlgorithm;
+import com.whiuk.philip.eesa.algorithms.JobAssignmentAlgorithm;
+import com.whiuk.philip.eesa.algorithms.SpeedScalingAlgorithm;
+import com.whiuk.philip.eesa.core.Test;
 import eesa.gui.help.HelpManager;
 import javax.swing.ComboBoxModel;
 import javax.swing.DefaultComboBoxModel;

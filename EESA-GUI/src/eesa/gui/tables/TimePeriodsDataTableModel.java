@@ -2,7 +2,7 @@ package eesa.gui.tables;
 
 import eesa.gui.event.TimePeriodViewEvent;
 import eesa.gui.views.TimePeriodsView;
-import eesa.core.ProcessorSpeedTimePeriod;
+import com.whiuk.philip.eesa.core.ProcessorSpeedTimePeriod;
 import eesa.gui.event.TimePeriodViewEventListener;
 
 /**

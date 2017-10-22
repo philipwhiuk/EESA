@@ -1,9 +1,9 @@
 package eesa.gui.views;
 
-import eesa.core.JobResult;
-import eesa.core.Processor;
-import eesa.core.Test;
-import eesa.core.TestList;
+import com.whiuk.philip.eesa.core.JobResult;
+import com.whiuk.philip.eesa.core.Processor;
+import com.whiuk.philip.eesa.core.Test;
+import com.whiuk.philip.eesa.core.TestList;
 import eesa.gui.ResultsDataPanel;
 import eesa.gui.event.JobResultViewEvent;
 import eesa.gui.event.JobResultViewEventListener;

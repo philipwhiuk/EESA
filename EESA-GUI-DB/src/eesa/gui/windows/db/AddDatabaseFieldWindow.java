@@ -5,13 +5,15 @@
  */
 package eesa.gui.windows.db;
 
-import eesa.db.DatabaseException;
-import eesa.db.Field;
+import com.whiuk.philip.eesa.db.DatabaseException;
+
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.ComboBoxModel;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JOptionPane;
+
+import com.whiuk.philip.eesa.db.Field;
 
 /**
  * Provides a window to add a database field.

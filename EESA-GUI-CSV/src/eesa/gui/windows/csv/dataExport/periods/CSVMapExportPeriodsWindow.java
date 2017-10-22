@@ -1,6 +1,5 @@
 package eesa.gui.windows.csv.dataExport.periods;
 
-import eesa.csv.dataExport.CSVPeriodDataExport;
 import eesa.gui.tables.DataMapTableHeader;
 import eesa.gui.tables.DataMapTableHeaderComboCellRenderer;
 import eesa.gui.tables.DataMapTableModel;
@@ -12,6 +11,8 @@ import java.util.List;
 import javax.swing.JComboBox;
 import javax.swing.table.JTableHeader;
 import javax.swing.table.TableModel;
+
+import com.whiuk.philip.eesa.csv.dataExport.CSVPeriodDataExport;
 
 /**
  * Allows the user to setup the mapping between the CSV file and EESA.

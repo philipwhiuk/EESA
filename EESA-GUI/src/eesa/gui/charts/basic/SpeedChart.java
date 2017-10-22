@@ -1,6 +1,6 @@
 package eesa.gui.charts.basic;
 
-import eesa.core.ProcessorSpeedTimePeriod;
+import com.whiuk.philip.eesa.core.ProcessorSpeedTimePeriod;
 import eesa.gui.charts.Chart2D;
 
 import java.awt.Graphics2D;

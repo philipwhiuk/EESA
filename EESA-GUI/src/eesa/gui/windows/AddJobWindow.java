@@ -5,9 +5,9 @@
  */
 package eesa.gui.windows;
 
-import eesa.core.Job;
-import eesa.core.Simulation;
-import eesa.exceptions.TimeIntervalException;
+import com.whiuk.philip.eesa.core.Job;
+import com.whiuk.philip.eesa.core.Simulation;
+import com.whiuk.philip.eesa.exceptions.TimeIntervalException;
 import eesa.gui.help.HelpManager;
 
 import java.awt.event.ActionEvent;

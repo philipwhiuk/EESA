@@ -17,8 +17,8 @@ import javax.swing.LayoutStyle;
 import javax.swing.SwingConstants;
 import javax.swing.WindowConstants;
 
-import eesa.core.Job;
-import eesa.exceptions.TimeIntervalException;
+import com.whiuk.philip.eesa.core.Job;
+import com.whiuk.philip.eesa.exceptions.TimeIntervalException;
 import eesa.gui.help.HelpManager;
 import javax.swing.JOptionPane;
 

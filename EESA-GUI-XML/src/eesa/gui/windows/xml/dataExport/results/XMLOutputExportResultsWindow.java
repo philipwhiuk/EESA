@@ -5,8 +5,8 @@
  */
 package eesa.gui.windows.xml.dataExport.results;
 
-import eesa.exceptions.XMLException;
-import eesa.xml.dataExport.XMLJobResultDataExport;
+import com.whiuk.philip.eesa.exceptions.XMLException;
+import com.whiuk.philip.eesa.xml.dataExport.XMLJobResultDataExport;
 import java.io.IOException;
 import javax.swing.ComboBoxModel;
 import javax.swing.DefaultComboBoxModel;

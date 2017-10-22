@@ -5,13 +5,13 @@
  */
 package eesa.gui.windows.xml.dataImport.jobs;
 
-import eesa.core.JobSet;
-import eesa.exceptions.EESAException;
-import eesa.exceptions.JobException;
-import eesa.exceptions.XMLException;
+import com.whiuk.philip.eesa.core.JobSet;
+import com.whiuk.philip.eesa.exceptions.EESAException;
+import com.whiuk.philip.eesa.exceptions.JobException;
+import com.whiuk.philip.eesa.exceptions.XMLException;
 import eesa.gui.help.HelpManager;
 import eesa.gui.tables.JobSetTableModel;
-import eesa.xml.dataImport.XMLJobDataImport;
+import com.whiuk.philip.eesa.xml.dataImport.XMLJobDataImport;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;

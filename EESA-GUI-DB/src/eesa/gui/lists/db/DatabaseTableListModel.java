@@ -1,8 +1,9 @@
 package eesa.gui.lists.db;
 
-import eesa.db.DatabaseTable;
 import eesa.gui.windows.db.DatabaseWindow;
 import java.util.ArrayList;
+
+import com.whiuk.philip.eesa.db.DatabaseTable;
 
 /**
  * Provides an abstract list model for database tables.

@@ -7,17 +7,8 @@
 
 package eesa.gui.windows.db.dataImport.jobs;
 
-import eesa.db.Database;
-import eesa.db.DatabaseCondition;
-import eesa.db.DatabaseConnector;
-import eesa.db.DatabaseException;
-import eesa.db.DatabaseSort;
-import eesa.db.DatabaseTable;
-import eesa.db.Field;
-import eesa.db.Operator;
-import eesa.db.SelectQuery;
-import eesa.db.dataImport.SQLJobDataImport;
-import eesa.exceptions.EESAException;
+import com.whiuk.philip.eesa.db.SelectQuery;
+import com.whiuk.philip.eesa.exceptions.EESAException;
 import eesa.gui.help.HelpManager;
 import eesa.gui.lists.db.DatabaseTableListModel;
 import eesa.gui.lists.db.DatabaseFieldListModel;
@@ -33,6 +24,16 @@ import java.util.logging.Logger;
 
 import javax.swing.JList;
 import javax.swing.JOptionPane;
+
+import com.whiuk.philip.eesa.db.Database;
+import com.whiuk.philip.eesa.db.DatabaseCondition;
+import com.whiuk.philip.eesa.db.DatabaseConnector;
+import com.whiuk.philip.eesa.db.DatabaseException;
+import com.whiuk.philip.eesa.db.DatabaseSort;
+import com.whiuk.philip.eesa.db.DatabaseTable;
+import com.whiuk.philip.eesa.db.Field;
+import com.whiuk.philip.eesa.db.Operator;
+import com.whiuk.philip.eesa.db.dataImport.SQLJobDataImport;
 
 /**
  * Allows the user to customize the retrieval query.

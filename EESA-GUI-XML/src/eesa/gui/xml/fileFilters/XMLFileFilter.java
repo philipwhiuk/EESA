@@ -1,9 +1,9 @@
 package eesa.gui.xml.fileFilters;
 
 
-import eesa.file.FileUtilities;
-
 import java.io.File;
+
+import com.whiuk.philip.eesa.file.FileUtilities;
 
 /**
  * The file filter used to limit the display of files to the XML format.

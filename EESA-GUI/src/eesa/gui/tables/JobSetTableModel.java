@@ -1,9 +1,9 @@
 package eesa.gui.tables;
 
-import eesa.core.Job;
-import eesa.core.JobSet;
-import eesa.event.JobEvent;
-import eesa.event.JobEventListener;
+import com.whiuk.philip.eesa.core.Job;
+import com.whiuk.philip.eesa.core.JobSet;
+import com.whiuk.philip.eesa.event.JobEvent;
+import com.whiuk.philip.eesa.event.JobEventListener;
 
 /**
  * Provides a {@link javax.swing.table.TableModel} for showing a JobSet.

@@ -1,12 +1,12 @@
 package eesa.gui.windows.db;
 
-import eesa.db.Database;
-import eesa.db.DatabaseCondition;
-import eesa.db.DatabaseConnector;
-import eesa.db.DatabaseSort;
-import eesa.db.DatabaseTable;
-import eesa.db.Field;
-import eesa.db.Operator;
+import com.whiuk.philip.eesa.db.Database;
+import com.whiuk.philip.eesa.db.DatabaseCondition;
+import com.whiuk.philip.eesa.db.DatabaseConnector;
+import com.whiuk.philip.eesa.db.DatabaseSort;
+import com.whiuk.philip.eesa.db.DatabaseTable;
+import com.whiuk.philip.eesa.db.Field;
+import com.whiuk.philip.eesa.db.Operator;
 
 /**
  * Provides an interface to receive 

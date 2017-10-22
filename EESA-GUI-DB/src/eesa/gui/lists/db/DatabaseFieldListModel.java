@@ -1,8 +1,9 @@
 package eesa.gui.lists.db;
 
-import eesa.db.Field;
 import eesa.gui.windows.db.DatabaseWindow;
 import java.util.ArrayList;
+
+import com.whiuk.philip.eesa.db.Field;
 
 /**
  * Provides an list model for database fields.

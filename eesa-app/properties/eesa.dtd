@@ -1,0 +1,15 @@
+<!ELEMENT databases (database)*>
+<!ELEMENT database (connection)*>
+<!ATTLIST database
+   className    CDATA          #REQUIRED
+   jdbcClass    CDATA          #REQUIRED
+   default    CDATA          #REQUIRED
+>
+<!ATTLIST connection
+   host    CDATA          #REQUIRED
+   port    CDATA          #REQUIRED
+   username    CDATA          #REQUIRED
+   password    CDATA          #REQUIRED
+   database    CDATA          #REQUIRED
+   name    CDATA          #REQUIRED
+>

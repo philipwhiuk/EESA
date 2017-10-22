@@ -5,10 +5,10 @@
  */
 package eesa.gui.windows.csv.dataImport.jobs;
 
-import eesa.csv.dataImport.CSVJobDataImport;
-import eesa.dataImport.JobDataImport;
-import eesa.csv.CSVException;
-import eesa.exceptions.InvalidMappingException;
+import com.whiuk.philip.eesa.csv.dataImport.CSVJobDataImport;
+import com.whiuk.philip.eesa.dataImport.JobDataImport;
+import com.whiuk.philip.eesa.csv.CSVException;
+import com.whiuk.philip.eesa.exceptions.InvalidMappingException;
 import eesa.gui.help.HelpManager;
 import eesa.gui.tables.DataMapTableHeader;
 import eesa.gui.tables.DataMapTableHeaderComboCellRenderer;

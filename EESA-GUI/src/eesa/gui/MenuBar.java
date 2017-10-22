@@ -1,6 +1,6 @@
 package eesa.gui;
 
-import eesa.core.Simulation;
+import com.whiuk.philip.eesa.core.Simulation;
 import eesa.gui.help.HelpManager;
 import java.awt.Component;
 import java.awt.Desktop;

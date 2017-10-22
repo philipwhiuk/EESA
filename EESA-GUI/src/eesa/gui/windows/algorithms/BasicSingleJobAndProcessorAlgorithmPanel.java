@@ -1,7 +1,7 @@
 package eesa.gui.windows.algorithms;
 
-import eesa.algorithms.BasicSingleJobAndProcessorAlgorithm;
-import eesa.algorithms.EESAAlgorithm;
+import com.whiuk.philip.eesa.algorithms.BasicSingleJobAndProcessorAlgorithm;
+import com.whiuk.philip.eesa.algorithms.EESAAlgorithm;
 
 /**
  * 

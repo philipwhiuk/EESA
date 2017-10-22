@@ -5,9 +5,9 @@
  */
 package eesa.gui.windows.db.dataExport.jobs;
 
-import eesa.db.DatabaseException;
-import eesa.db.dataExport.SQLJobDataExport;
-import eesa.exceptions.InvalidMappingException;
+import com.whiuk.philip.eesa.db.DatabaseException;
+import com.whiuk.philip.eesa.db.dataExport.SQLJobDataExport;
+import com.whiuk.philip.eesa.exceptions.InvalidMappingException;
 import eesa.gui.help.HelpManager;
 import eesa.gui.tables.DataMapTableHeader;
 import eesa.gui.tables.DataMapTableHeaderComboCellRenderer;

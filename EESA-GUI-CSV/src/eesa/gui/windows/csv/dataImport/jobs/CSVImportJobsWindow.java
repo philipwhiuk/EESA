@@ -5,8 +5,8 @@
  */
 package eesa.gui.windows.csv.dataImport.jobs;
 
-import eesa.csv.dataImport.CSVJobDataImport;
-import eesa.csv.CSVException;
+import com.whiuk.philip.eesa.csv.dataImport.CSVJobDataImport;
+import com.whiuk.philip.eesa.csv.CSVException;
 import eesa.gui.csv.CSVFileFilter;
 import eesa.gui.help.HelpManager;
 import eesa.gui.windows.dataImport.jobs.AbstractImportJobsWindow;

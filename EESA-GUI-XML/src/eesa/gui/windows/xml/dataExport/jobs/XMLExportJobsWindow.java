@@ -6,9 +6,9 @@ package eesa.gui.windows.xml.dataExport.jobs;
  */
 
 
-import eesa.exceptions.XMLException;
+import com.whiuk.philip.eesa.exceptions.XMLException;
 import eesa.gui.xml.fileFilters.XMLFileFilter;
-import eesa.xml.dataExport.XMLJobDataExport;
+import com.whiuk.philip.eesa.xml.dataExport.XMLJobDataExport;
 import eesa.gui.help.HelpManager;
 import eesa.gui.windows.dataExport.jobs.AbstractExportJobsWindow;
 import java.io.IOException;

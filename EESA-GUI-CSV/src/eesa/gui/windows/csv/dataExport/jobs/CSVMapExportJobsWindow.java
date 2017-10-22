@@ -1,6 +1,6 @@
 package eesa.gui.windows.csv.dataExport.jobs;
 
-import eesa.csv.dataExport.CSVJobDataExport;
+import com.whiuk.philip.eesa.csv.dataExport.CSVJobDataExport;
 import eesa.gui.tables.DataMapTableHeader;
 import eesa.gui.tables.DataMapTableHeaderComboCellRenderer;
 import eesa.gui.tables.DataMapTableModel;

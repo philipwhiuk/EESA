@@ -1,7 +1,7 @@
 package eesa.gui.windows.imageExport;
 
-import eesa.core.Processor;
-import eesa.core.Test;
+import com.whiuk.philip.eesa.core.Processor;
+import com.whiuk.philip.eesa.core.Test;
 import eesa.gui.ImageException;
 import eesa.gui.charts.Charts;
 import eesa.gui.fileFilters.ImageFileFilter;

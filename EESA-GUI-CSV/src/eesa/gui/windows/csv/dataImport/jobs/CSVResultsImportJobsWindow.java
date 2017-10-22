@@ -5,10 +5,10 @@
  */
 package eesa.gui.windows.csv.dataImport.jobs;
 
-import eesa.core.JobSet;
-import eesa.csv.CSVException;
-import eesa.csv.dataImport.CSVJobDataImport;
-import eesa.exceptions.EESAException;
+import com.whiuk.philip.eesa.core.JobSet;
+import com.whiuk.philip.eesa.csv.CSVException;
+import com.whiuk.philip.eesa.csv.dataImport.CSVJobDataImport;
+import com.whiuk.philip.eesa.exceptions.EESAException;
 import eesa.gui.help.HelpManager;
 import eesa.gui.tables.JobSetTableModel;
 import eesa.gui.windows.AbstractProcessWindow;

@@ -1,9 +1,9 @@
 package eesa.gui.tables;
 
-import eesa.algorithms.AssignmentAndScalingAlgorithm;
-import eesa.core.TestList;
-import eesa.event.TestEvent;
-import eesa.event.TestEventListener;
+import com.whiuk.philip.eesa.algorithms.AssignmentAndScalingAlgorithm;
+import com.whiuk.philip.eesa.core.TestList;
+import com.whiuk.philip.eesa.event.TestEvent;
+import com.whiuk.philip.eesa.event.TestEventListener;
 
 /**
  * Provides a {@link javax.swing.table.TableModel} for showing tests.

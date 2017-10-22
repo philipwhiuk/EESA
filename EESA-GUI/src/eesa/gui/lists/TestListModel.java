@@ -1,7 +1,7 @@
 package eesa.gui.lists;
 
-import eesa.core.Test;
-import eesa.core.TestList;
+import com.whiuk.philip.eesa.core.Test;
+import com.whiuk.philip.eesa.core.TestList;
 
 /**
  * Provides a {@link javax.swing.ListModel}

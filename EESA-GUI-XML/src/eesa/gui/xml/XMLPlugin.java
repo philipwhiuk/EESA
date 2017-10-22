@@ -1,9 +1,9 @@
 package eesa.gui.xml;
 
-import eesa.dataExport.JobDataExport;
-import eesa.dataExport.JobResultDataExport;
-import eesa.dataExport.PeriodDataExport;
-import eesa.dataImport.JobDataImport;
+import com.whiuk.philip.eesa.dataExport.JobDataExport;
+import com.whiuk.philip.eesa.dataExport.JobResultDataExport;
+import com.whiuk.philip.eesa.dataExport.PeriodDataExport;
+import com.whiuk.philip.eesa.dataImport.JobDataImport;
 import eesa.gui.PluginConnector;
 import eesa.gui.windows.dataExport.jobs.AbstractExportJobsWindow;
 import eesa.gui.windows.dataExport.periods.AbstractExportPeriodsWindow;
@@ -13,10 +13,10 @@ import eesa.gui.windows.xml.dataExport.jobs.XMLExportJobsWindow;
 import eesa.gui.windows.xml.dataExport.periods.XMLExportPeriodsWindow;
 import eesa.gui.windows.xml.dataExport.results.XMLExportResultsWindow;
 import eesa.gui.windows.xml.dataImport.jobs.XMLImportJobsWindow;
-import eesa.xml.dataExport.XMLJobDataExport;
-import eesa.xml.dataExport.XMLJobResultDataExport;
-import eesa.xml.dataExport.XMLPeriodDataExport;
-import eesa.xml.dataImport.XMLJobDataImport;
+import com.whiuk.philip.eesa.xml.dataExport.XMLJobDataExport;
+import com.whiuk.philip.eesa.xml.dataExport.XMLJobResultDataExport;
+import com.whiuk.philip.eesa.xml.dataExport.XMLPeriodDataExport;
+import com.whiuk.philip.eesa.xml.dataImport.XMLJobDataImport;
 
 /**
  * The module's plug-in connector which provides the system the details of this module.

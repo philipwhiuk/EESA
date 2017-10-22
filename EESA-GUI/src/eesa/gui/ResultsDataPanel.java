@@ -6,9 +6,9 @@
 package eesa.gui;
 
 
-import eesa.core.Processor;
-import eesa.core.Simulation;
-import eesa.core.Test;
+import com.whiuk.philip.eesa.core.Processor;
+import com.whiuk.philip.eesa.core.Simulation;
+import com.whiuk.philip.eesa.core.Test;
 import eesa.gui.charts.Charts;
 import eesa.gui.charts.Charts.SplitType;
 import eesa.gui.charts.basic.EnergyCharts;

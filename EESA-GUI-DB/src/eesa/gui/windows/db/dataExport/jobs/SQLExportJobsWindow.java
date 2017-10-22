@@ -1,16 +1,6 @@
 package eesa.gui.windows.db.dataExport.jobs;
 
-/*
- * SQLExportJobsWindow.java
- *
- * Created on 02-Apr-2012, 11:47:12
- */
-
-import eesa.db.Database;
-import eesa.db.DatabaseConnector;
-import eesa.db.DatabaseException;
-import eesa.db.DatabaseManager;
-import eesa.db.dataExport.SQLJobDataExport;
+import com.whiuk.philip.eesa.db.dataExport.SQLJobDataExport;
 import eesa.gui.help.HelpManager;
 import eesa.gui.windows.dataExport.jobs.AbstractExportJobsWindow;
 import java.util.logging.Level;
@@ -18,6 +8,11 @@ import java.util.logging.Logger;
 import javax.swing.ComboBoxModel;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JOptionPane;
+
+import com.whiuk.philip.eesa.db.Database;
+import com.whiuk.philip.eesa.db.DatabaseConnector;
+import com.whiuk.philip.eesa.db.DatabaseException;
+import com.whiuk.philip.eesa.db.DatabaseManager;
 
 /**
  * Allows the user to customise the database connection details.

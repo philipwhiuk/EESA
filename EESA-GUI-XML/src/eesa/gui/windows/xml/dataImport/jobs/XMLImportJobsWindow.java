@@ -5,9 +5,9 @@
  */
 package eesa.gui.windows.xml.dataImport.jobs;
 
-import eesa.exceptions.XMLException;
+import com.whiuk.philip.eesa.exceptions.XMLException;
 import eesa.gui.xml.fileFilters.XMLFileFilter;
-import eesa.xml.dataImport.XMLJobDataImport;
+import com.whiuk.philip.eesa.xml.dataImport.XMLJobDataImport;
 import eesa.gui.help.HelpManager;
 import eesa.gui.windows.dataImport.jobs.AbstractImportJobsWindow;
 import eesa.gui.windows.dataImport.jobs.ImportJobsWindow;

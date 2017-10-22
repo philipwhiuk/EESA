@@ -13,7 +13,7 @@ import javax.swing.JTextField;
 import javax.swing.LayoutStyle;
 import javax.swing.WindowConstants;
 
-import eesa.csv.dataExport.CSVJobDataExport;
+import com.whiuk.philip.eesa.csv.dataExport.CSVJobDataExport;
 import eesa.gui.csv.CSVFileFilter;
 import eesa.gui.help.HelpManager;
 import eesa.gui.windows.dataExport.jobs.AbstractExportJobsWindow;

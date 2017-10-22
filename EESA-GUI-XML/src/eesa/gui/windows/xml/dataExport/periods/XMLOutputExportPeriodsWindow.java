@@ -6,8 +6,8 @@
  */
 package eesa.gui.windows.xml.dataExport.periods;
 
-import eesa.exceptions.XMLException;
-import eesa.xml.dataExport.XMLPeriodDataExport;
+import com.whiuk.philip.eesa.exceptions.XMLException;
+import com.whiuk.philip.eesa.xml.dataExport.XMLPeriodDataExport;
 import java.io.IOException;
 import javax.swing.ComboBoxModel;
 import javax.swing.DefaultComboBoxModel;

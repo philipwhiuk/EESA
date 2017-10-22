@@ -5,7 +5,7 @@
  */
 package eesa.gui.windows.dataImport.jobs;
 
-import eesa.dataImport.JobDataImport;
+import com.whiuk.philip.eesa.dataImport.JobDataImport;
 import eesa.gui.Application;
 import eesa.gui.PluginConnector;
 import eesa.gui.help.HelpManager;

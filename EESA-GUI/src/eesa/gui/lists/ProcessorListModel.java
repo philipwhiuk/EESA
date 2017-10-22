@@ -1,6 +1,6 @@
 package eesa.gui.lists;
 
-import eesa.core.Processor;
+import com.whiuk.philip.eesa.core.Processor;
 import java.util.ArrayList;
 
 /**

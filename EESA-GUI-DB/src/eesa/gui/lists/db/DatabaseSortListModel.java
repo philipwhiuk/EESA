@@ -1,9 +1,10 @@
 package eesa.gui.lists.db;
 
-import eesa.db.DatabaseSort;
 import eesa.gui.windows.db.DatabaseWindow;
 import java.util.ArrayList;
 import java.util.Collections;
+
+import com.whiuk.philip.eesa.db.DatabaseSort;
 
 /**
  * Provides an abstract list model for database data sorting.

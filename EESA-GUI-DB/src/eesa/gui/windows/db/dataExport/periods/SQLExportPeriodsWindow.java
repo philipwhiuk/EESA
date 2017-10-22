@@ -5,11 +5,6 @@
  */
 package eesa.gui.windows.db.dataExport.periods;
 
-import eesa.db.Database;
-import eesa.db.DatabaseConnector;
-import eesa.db.DatabaseException;
-import eesa.db.DatabaseManager;
-import eesa.db.dataExport.SQLPeriodDataExport;
 import eesa.gui.windows.dataExport.periods.AbstractExportPeriodsWindow;
 
 import java.awt.event.ActionEvent;
@@ -29,6 +24,12 @@ import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 import javax.swing.LayoutStyle;
 import javax.swing.WindowConstants;
+
+import com.whiuk.philip.eesa.db.Database;
+import com.whiuk.philip.eesa.db.DatabaseConnector;
+import com.whiuk.philip.eesa.db.DatabaseException;
+import com.whiuk.philip.eesa.db.DatabaseManager;
+import com.whiuk.philip.eesa.db.dataExport.SQLPeriodDataExport;
 
 import javax.swing.ComboBoxModel;
 import javax.swing.DefaultComboBoxModel;

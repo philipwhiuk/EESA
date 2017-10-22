@@ -5,11 +5,10 @@
  */
 package eesa.gui.windows.db.dataImport.jobs;
 
-import eesa.core.JobSet;
-import eesa.db.DatabaseException;
-import eesa.db.dataImport.SQLJobDataImport;
-import eesa.exceptions.EESAException;
-import eesa.exceptions.JobException;
+import com.whiuk.philip.eesa.core.JobSet;
+import com.whiuk.philip.eesa.db.DatabaseException;
+import com.whiuk.philip.eesa.exceptions.EESAException;
+import com.whiuk.philip.eesa.exceptions.JobException;
 import eesa.gui.help.HelpManager;
 import eesa.gui.tables.JobSetTableModel;
 import eesa.gui.windows.AbstractProcessWindow;
@@ -18,6 +17,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import javax.swing.table.TableModel;
+
+import com.whiuk.philip.eesa.db.dataImport.SQLJobDataImport;
 
 /**
  * Allows the user to view the data prior to import.

@@ -1,9 +1,8 @@
 package eesa.gui.windows.db.dataExport.results;
 
-import eesa.db.DatabaseException;
-import eesa.db.dataExport.SQLJobResultDataExport;
-import eesa.exceptions.EESAException;
-import eesa.exceptions.InvalidMappingException;
+import com.whiuk.philip.eesa.db.DatabaseException;
+import com.whiuk.philip.eesa.exceptions.EESAException;
+import com.whiuk.philip.eesa.exceptions.InvalidMappingException;
 import eesa.gui.tables.DataMapTableHeader;
 import eesa.gui.tables.DataMapTableHeaderComboCellRenderer;
 import eesa.gui.tables.DataMapTableModel;
@@ -16,6 +15,8 @@ import javax.swing.JComboBox;
 import javax.swing.JOptionPane;
 import javax.swing.table.JTableHeader;
 import javax.swing.table.TableModel;
+
+import com.whiuk.philip.eesa.db.dataExport.SQLJobResultDataExport;
 
 /**
  * Allows the user to create the mapping between SQL fields and EESA data.

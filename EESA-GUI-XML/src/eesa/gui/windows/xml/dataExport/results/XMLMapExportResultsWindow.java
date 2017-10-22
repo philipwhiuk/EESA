@@ -1,11 +1,11 @@
 package eesa.gui.windows.xml.dataExport.results;
 
-import eesa.exceptions.InvalidMappingException;
-import eesa.exceptions.XMLException;
+import com.whiuk.philip.eesa.exceptions.InvalidMappingException;
+import com.whiuk.philip.eesa.exceptions.XMLException;
 import eesa.gui.tables.DataMapTableHeader;
 import eesa.gui.tables.DataMapTableHeaderComboCellRenderer;
 import eesa.gui.tables.DataMapTableModel;
-import eesa.xml.dataExport.XMLJobResultDataExport;
+import com.whiuk.philip.eesa.xml.dataExport.XMLJobResultDataExport;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;

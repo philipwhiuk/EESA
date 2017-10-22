@@ -6,7 +6,7 @@ package eesa.gui.windows.dataExport.jobs;
  * Created on 02-Apr-2012, 11:14:46
  */
 
-import eesa.dataExport.JobDataExport;
+import com.whiuk.philip.eesa.dataExport.JobDataExport;
 import eesa.gui.Application;
 import eesa.gui.PluginConnector;
 import eesa.gui.help.HelpManager;

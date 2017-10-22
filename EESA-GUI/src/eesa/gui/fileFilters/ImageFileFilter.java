@@ -1,11 +1,11 @@
 package eesa.gui.fileFilters;
 
-import eesa.file.FileUtilities;
-
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import com.whiuk.philip.eesa.file.FileUtilities;
 
 /**
  * The file filter used to limit the display of files to a specific image format.

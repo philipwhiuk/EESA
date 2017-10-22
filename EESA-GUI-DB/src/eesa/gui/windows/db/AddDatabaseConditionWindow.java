@@ -7,12 +7,7 @@ package eesa.gui.windows.db;
 
 import javax.swing.ButtonGroup;
 
-import eesa.db.DatabaseValue;
-import eesa.db.Field;
-import eesa.db.Operator;
-import eesa.db.QueryObject;
-import eesa.db.SQLObject;
-import eesa.db.SelectQuery;
+import com.whiuk.philip.eesa.db.SelectQuery;
 import javax.swing.ComboBoxModel;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.GroupLayout;
@@ -24,6 +19,12 @@ import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 import javax.swing.LayoutStyle;
 import javax.swing.WindowConstants;
+
+import com.whiuk.philip.eesa.db.DatabaseValue;
+import com.whiuk.philip.eesa.db.Field;
+import com.whiuk.philip.eesa.db.Operator;
+import com.whiuk.philip.eesa.db.QueryObject;
+import com.whiuk.philip.eesa.db.SQLObject;
 
 /**
  * Provides a window to add a database condition.

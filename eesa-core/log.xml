@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-10-22T19:10:16</date>
+  <millis>1508695816593</millis>
+  <sequence>0</sequence>
+  <logger>com.whiuk.philip.eesa.core.Main</logger>
+  <level>SEVERE</level>
+  <class>com.whiuk.philip.eesa.core.Main</class>
+  <method>setupDatabase</method>
+  <thread>1</thread>
+  <message>Unable to load provided dbManagerClass</message>
+  <exception>
+    <message>java.lang.ClassNotFoundException: com.whiuk.philip.eesa.db.DatabaseManager</message>
+    <frame>
+      <class>java.net.URLClassLoader</class>
+      <method>findClass</method>
+      <line>381</line>
+    </frame>
+    <frame>
+      <class>java.lang.ClassLoader</class>
+      <method>loadClass</method>
+      <line>424</line>
+    </frame>
+    <frame>
+      <class>sun.misc.Launcher$AppClassLoader</class>
+      <method>loadClass</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>java.lang.ClassLoader</class>
+      <method>loadClass</method>
+      <line>357</line>
+    </frame>
+    <frame>
+      <class>java.lang.Class</class>
+      <method>forName0</method>
+    </frame>
+    <frame>
+      <class>java.lang.Class</class>
+      <method>forName</method>
+      <line>264</line>
+    </frame>
+    <frame>
+      <class>com.whiuk.philip.eesa.core.Main</class>
+      <method>setupDatabase</method>
+      <line>80</line>
+    </frame>
+    <frame>
+      <class>com.whiuk.philip.eesa.core.Main</class>
+      <method>main</method>
+      <line>46</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2017-10-22T19:10:16</date>
+  <millis>1508695816626</millis>
+  <sequence>1</sequence>
+  <logger>com.whiuk.philip.eesa.core.Main</logger>
+  <level>SEVERE</level>
+  <class>com.whiuk.philip.eesa.core.Main</class>
+  <method>launch</method>
+  <thread>1</thread>
+  <message>Unable to load mainClass</message>
+  <exception>
+    <message>java.lang.ClassNotFoundException: com.whiuk.philip.eesa.cl.Application</message>
+    <frame>
+      <class>java.net.URLClassLoader</class>
+      <method>findClass</method>
+      <line>381</line>
+    </frame>
+    <frame>
+      <class>java.lang.ClassLoader</class>
+      <method>loadClass</method>
+      <line>424</line>
+    </frame>
+    <frame>
+      <class>sun.misc.Launcher$AppClassLoader</class>
+      <method>loadClass</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>java.lang.ClassLoader</class>
+      <method>loadClass</method>
+      <line>357</line>
+    </frame>
+    <frame>
+      <class>java.lang.Class</class>
+      <method>forName0</method>
+    </frame>
+    <frame>
+      <class>java.lang.Class</class>
+      <method>forName</method>
+      <line>264</line>
+    </frame>
+    <frame>
+      <class>com.whiuk.philip.eesa.core.Main</class>
+      <method>launch</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.whiuk.philip.eesa.core.Main</class>
+      <method>main</method>
+      <line>47</line>
+    </frame>
+  </exception>
+</record>
+</log>

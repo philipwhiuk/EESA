@@ -5,8 +5,8 @@
  */
 package eesa.gui.windows.csv.dataExport.results;
 
-import eesa.csv.CSVException;
-import eesa.csv.dataExport.CSVJobResultDataExport;
+import com.whiuk.philip.eesa.csv.CSVException;
+import com.whiuk.philip.eesa.csv.dataExport.CSVJobResultDataExport;
 import eesa.gui.windows.AbstractProcessWindow;
 
 import java.util.logging.Level;

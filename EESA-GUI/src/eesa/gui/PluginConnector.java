@@ -1,9 +1,9 @@
 package eesa.gui;
 
-import eesa.dataExport.JobDataExport;
-import eesa.dataExport.JobResultDataExport;
-import eesa.dataExport.PeriodDataExport;
-import eesa.dataImport.JobDataImport;
+import com.whiuk.philip.eesa.dataExport.JobDataExport;
+import com.whiuk.philip.eesa.dataExport.JobResultDataExport;
+import com.whiuk.philip.eesa.dataExport.PeriodDataExport;
+import com.whiuk.philip.eesa.dataImport.JobDataImport;
 import eesa.gui.windows.dataExport.jobs.AbstractExportJobsWindow;
 import eesa.gui.windows.dataExport.periods.AbstractExportPeriodsWindow;
 import eesa.gui.windows.dataExport.results.AbstractExportResultsWindow;

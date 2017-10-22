@@ -6,15 +6,16 @@
 
 package eesa.gui.windows.db.dataExport.results;
 
-import eesa.db.Database;
-import eesa.db.DatabaseCondition;
-import eesa.db.DatabaseConnector;
-import eesa.db.DatabaseSort;
-import eesa.db.DatabaseTable;
-import eesa.db.Field;
-import eesa.db.InsertQuery;
-import eesa.db.Operator;
-import eesa.db.dataExport.SQLJobResultDataExport;
+import com.whiuk.philip.eesa.db.Database;
+import com.whiuk.philip.eesa.db.DatabaseCondition;
+import com.whiuk.philip.eesa.db.DatabaseConnector;
+import com.whiuk.philip.eesa.db.DatabaseSort;
+import com.whiuk.philip.eesa.db.DatabaseTable;
+import com.whiuk.philip.eesa.db.Field;
+import com.whiuk.philip.eesa.db.InsertQuery;
+import com.whiuk.philip.eesa.db.Operator;
+import com.whiuk.philip.eesa.db.dataExport.SQLJobResultDataExport;
+
 import eesa.gui.lists.db.DatabaseFieldListModel;
 import eesa.gui.windows.AbstractProcessWindow;
 import eesa.gui.windows.db.AddDatabaseFieldWindow;

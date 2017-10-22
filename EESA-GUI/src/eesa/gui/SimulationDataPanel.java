@@ -3,13 +3,13 @@ package eesa.gui;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import eesa.core.Job;
-import eesa.core.Test;
+import com.whiuk.philip.eesa.core.Job;
+import com.whiuk.philip.eesa.core.Test;
 import eesa.gui.tables.TestTableModel;
 import eesa.gui.tables.JobSetTableModel;
 import eesa.gui.windows.AddTestWindow;
 import eesa.gui.windows.JobGenerationWindow;
-import eesa.core.Simulation;
+import com.whiuk.philip.eesa.core.Simulation;
 import eesa.gui.help.HelpManager;
 import eesa.gui.windows.dataExport.jobs.ExportJobsWindow;
 import eesa.gui.windows.dataImport.jobs.ImportJobsWindow;

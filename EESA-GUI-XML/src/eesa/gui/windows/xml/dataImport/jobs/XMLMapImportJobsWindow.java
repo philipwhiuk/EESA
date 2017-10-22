@@ -6,15 +6,15 @@
  */
 package eesa.gui.windows.xml.dataImport.jobs;
 
-import eesa.dataImport.JobDataImport;
-import eesa.exceptions.InvalidMappingException;
-import eesa.exceptions.JobException;
-import eesa.exceptions.XMLException;
+import com.whiuk.philip.eesa.dataImport.JobDataImport;
+import com.whiuk.philip.eesa.exceptions.InvalidMappingException;
+import com.whiuk.philip.eesa.exceptions.JobException;
+import com.whiuk.philip.eesa.exceptions.XMLException;
 import eesa.gui.help.HelpManager;
 import eesa.gui.tables.DataMapTableHeader;
 import eesa.gui.tables.DataMapTableHeaderComboCellRenderer;
 import eesa.gui.tables.DataMapTableModel;
-import eesa.xml.dataImport.XMLJobDataImport;
+import com.whiuk.philip.eesa.xml.dataImport.XMLJobDataImport;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.logging.Level;

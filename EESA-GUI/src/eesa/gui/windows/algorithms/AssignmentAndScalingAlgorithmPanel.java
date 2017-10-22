@@ -12,10 +12,10 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.LayoutStyle;
 
-import eesa.algorithms.AssignmentAndScalingAlgorithm;
-import eesa.algorithms.EESAAlgorithm;
-import eesa.algorithms.JobAssignmentAlgorithm;
-import eesa.algorithms.SpeedScalingAlgorithm;
+import com.whiuk.philip.eesa.algorithms.AssignmentAndScalingAlgorithm;
+import com.whiuk.philip.eesa.algorithms.EESAAlgorithm;
+import com.whiuk.philip.eesa.algorithms.JobAssignmentAlgorithm;
+import com.whiuk.philip.eesa.algorithms.SpeedScalingAlgorithm;
 import eesa.gui.help.HelpManager;
 import eesa.gui.windows.AddTestWindow;
 

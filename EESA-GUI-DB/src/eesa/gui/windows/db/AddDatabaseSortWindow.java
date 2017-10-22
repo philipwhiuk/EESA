@@ -5,8 +5,6 @@
  */
 package eesa.gui.windows.db;
 
-import eesa.db.Field;
-import eesa.db.OrderByClause;
 import javax.swing.ComboBoxModel;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.GroupLayout;
@@ -16,6 +14,9 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.LayoutStyle;
 import javax.swing.WindowConstants;
+
+import com.whiuk.philip.eesa.db.Field;
+import com.whiuk.philip.eesa.db.OrderByClause;
 
 /**
  * Provides a window to add a database data sort.

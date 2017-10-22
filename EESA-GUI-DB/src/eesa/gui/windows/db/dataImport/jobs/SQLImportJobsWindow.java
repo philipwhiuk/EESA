@@ -5,11 +5,6 @@
  */
 package eesa.gui.windows.db.dataImport.jobs;
 
-import eesa.db.dataImport.SQLJobDataImport;
-import eesa.db.Database;
-import eesa.db.DatabaseConnector;
-import eesa.db.DatabaseException;
-import eesa.db.DatabaseManager;
 import eesa.gui.help.HelpManager;
 import eesa.gui.windows.dataImport.jobs.AbstractImportJobsWindow;
 import eesa.gui.windows.dataImport.jobs.ImportJobsWindow;
@@ -20,6 +15,12 @@ import javax.swing.DefaultComboBoxModel;
 import javax.swing.JOptionPane;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
+
+import com.whiuk.philip.eesa.db.Database;
+import com.whiuk.philip.eesa.db.DatabaseConnector;
+import com.whiuk.philip.eesa.db.DatabaseException;
+import com.whiuk.philip.eesa.db.DatabaseManager;
+import com.whiuk.philip.eesa.db.dataImport.SQLJobDataImport;
 
 /**
  * Allows the user to customize the database connection details.

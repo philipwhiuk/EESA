@@ -5,7 +5,7 @@
  */
 package eesa.gui.windows.xml.dataExport.periods;
 
-import eesa.xml.dataExport.XMLPeriodDataExport;
+import com.whiuk.philip.eesa.xml.dataExport.XMLPeriodDataExport;
 
 /**
  * Allows the user to view data before exporting it.

@@ -1,6 +1,6 @@
 package eesa.gui.visualisation;
 
-import eesa.core.JobSet;
+import com.whiuk.philip.eesa.core.JobSet;
 import eesa.gui.SimulationDataPanel;
 
 /**

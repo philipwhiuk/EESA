@@ -5,8 +5,8 @@
  */
 package eesa.gui.windows.db;
 
-import eesa.db.DatabaseException;
-import eesa.db.DatabaseTable;
+import com.whiuk.philip.eesa.db.DatabaseException;
+import com.whiuk.philip.eesa.db.DatabaseTable;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

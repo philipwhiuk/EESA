@@ -9,15 +9,16 @@ import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
-import eesa.core.Simulation;
-import eesa.exceptions.SimulationLoadingException;
-import eesa.exceptions.SimulationSavingException;
-import eesa.file.FileUtilities;
+import com.whiuk.philip.eesa.file.FileUtilities;
+
+import com.whiuk.philip.eesa.core.Simulation;
+import com.whiuk.philip.eesa.exceptions.SimulationLoadingException;
+import com.whiuk.philip.eesa.exceptions.SimulationSavingException;
 import eesa.gui.Application;
 import eesa.gui.dataSource.GUISimulationDataType;
 import eesa.gui.xml.fileFilters.ESAFileFilter;
-import eesa.xml.XMLSimulationDataSource;
-import eesa.xml.XMLSimulationDataType;
+import com.whiuk.philip.eesa.xml.XMLSimulationDataSource;
+import com.whiuk.philip.eesa.xml.XMLSimulationDataType;
 
 /**
  * Provides the GUI interface to load and save simulations via XML.

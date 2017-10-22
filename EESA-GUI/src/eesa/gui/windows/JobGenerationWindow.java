@@ -5,12 +5,12 @@
  */
 package eesa.gui.windows;
 
-import eesa.core.Job;
-import eesa.core.JobSet;
-import eesa.core.Simulation;
-import eesa.exceptions.JobException;
-import eesa.exceptions.JobGeneratorException;
-import eesa.exceptions.TimeIntervalException;
+import com.whiuk.philip.eesa.core.Job;
+import com.whiuk.philip.eesa.core.JobSet;
+import com.whiuk.philip.eesa.core.Simulation;
+import com.whiuk.philip.eesa.exceptions.JobException;
+import com.whiuk.philip.eesa.exceptions.JobGeneratorException;
+import com.whiuk.philip.eesa.exceptions.TimeIntervalException;
 import eesa.gui.tables.JobSetTableModel;
 
 import java.awt.event.ActionEvent;

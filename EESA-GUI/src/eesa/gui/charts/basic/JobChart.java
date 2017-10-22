@@ -1,7 +1,7 @@
 package eesa.gui.charts.basic;
 
-import eesa.core.Job;
-import eesa.core.JobResult;
+import com.whiuk.philip.eesa.core.Job;
+import com.whiuk.philip.eesa.core.JobResult;
 import eesa.gui.charts.Chart2D;
 
 import java.awt.Color;

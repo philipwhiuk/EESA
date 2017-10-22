@@ -5,9 +5,9 @@
  */
 package eesa.gui.windows.imageExport.results;
 
-import eesa.core.Processor;
-import eesa.core.Simulator;
-import eesa.core.Test;
+import com.whiuk.philip.eesa.core.Processor;
+import com.whiuk.philip.eesa.core.Simulator;
+import com.whiuk.philip.eesa.core.Test;
 import eesa.gui.lists.ProcessorListModel;
 import eesa.gui.lists.TestListModel;
 import eesa.gui.windows.AbstractProcessWindow;

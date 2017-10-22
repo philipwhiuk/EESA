@@ -5,10 +5,10 @@
  */
 package eesa.gui.windows.xml.dataExport.results;
 
-import eesa.exceptions.XMLException;
+import com.whiuk.philip.eesa.exceptions.XMLException;
 import eesa.gui.xml.fileFilters.XMLFileFilter;
 import eesa.gui.windows.dataExport.results.AbstractExportResultsWindow;
-import eesa.xml.dataExport.XMLJobResultDataExport;
+import com.whiuk.philip.eesa.xml.dataExport.XMLJobResultDataExport;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;

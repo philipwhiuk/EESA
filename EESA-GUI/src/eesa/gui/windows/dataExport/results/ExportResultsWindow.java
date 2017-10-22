@@ -5,7 +5,7 @@
  */
 package eesa.gui.windows.dataExport.results;
 
-import eesa.dataExport.JobResultDataExport;
+import com.whiuk.philip.eesa.dataExport.JobResultDataExport;
 import eesa.gui.Application;
 import eesa.gui.PluginConnector;
 

@@ -12,9 +12,9 @@ import java.util.logging.Logger;
 
 import javax.swing.JPanel;
 
-import eesa.algorithms.EESAAlgorithm;
-import eesa.core.Main;
-import eesa.core.Simulation;
+import com.whiuk.philip.eesa.algorithms.EESAAlgorithm;
+import com.whiuk.philip.eesa.core.Main;
+import com.whiuk.philip.eesa.core.Simulation;
 import eesa.gui.Application;
 import eesa.gui.help.HelpManager;
 import eesa.gui.windows.AddTestWindow;
@@ -73,6 +73,7 @@ public abstract class EESAAlgorithmPanel extends JPanel {
                         algorithmClass = br.readLine();
                     } while(algorithmClass != null);
                 }
+                br.close();
             } catch (FileNotFoundException ex) {
                 try {
                 	logger.log(Level.WARNING,
