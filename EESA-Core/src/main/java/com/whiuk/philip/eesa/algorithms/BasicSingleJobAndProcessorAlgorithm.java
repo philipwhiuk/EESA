@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.whiuk.philip.eesa.core.Job;
+import com.whiuk.philip.eesa.core.JobResult;
 import com.whiuk.philip.eesa.core.JobSet;
 import com.whiuk.philip.eesa.core.Processor;
 import com.whiuk.philip.eesa.core.ProcessorResult;
@@ -51,7 +52,7 @@ public class BasicSingleJobAndProcessorAlgorithm extends EESAAlgorithm {
 			pR[i] = new ProcessorResult(p[i]);
 		}
 		if (j.getSize() > 1) {
-			throw new AlgorithmException("Handling than 1 job not implemented");
+			throw new AlgorithmException("Handling more than 1 job not implemented");
 		}	
 		Job job = j.getJobs().get(0);
 		
@@ -65,6 +66,7 @@ public class BasicSingleJobAndProcessorAlgorithm extends EESAAlgorithm {
 		periods.add(period);
 		
 		pR[0].setSpeedGraph(periods);
+		pR[0].setJobResults(new JobResult[] {new JobResult(0, t, p[0], job)});
 				
 		return new TestResult(t, pR);
 		

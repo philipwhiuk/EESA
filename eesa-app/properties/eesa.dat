@@ -1,2 +1,2 @@
-eesa.algorithms.BasicSingleJobAndProcessorAlgorithm
-eesa.algorithms.AssignmentAndScalingAlgorithm
+com.whiuk.philip.eesa.algorithms.BasicSingleJobAndProcessorAlgorithm
+com.whiuk.philip.eesa.algorithms.AssignmentAndScalingAlgorithm

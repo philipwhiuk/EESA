@@ -295,8 +295,7 @@ public class AddTestWindow extends JFrame {
 	            buildLayout();
 	            System.out.println(eesaAlgorithmPanel);
 	            validate(); 
-	            repaint();
-	            System.out.println(eesaAlgorithmPanel.getSize());    		
+	            repaint();		
     		}
     	});
     }

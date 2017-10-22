@@ -22,7 +22,7 @@
   <dependencies>
   	<dependency>
   		<groupId>com.whiuk.philip.eesa</groupId>
-  		<artifactId>eesa-core</artifactId>
+  		<artifactId>eesa-csv</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   </dependencies>

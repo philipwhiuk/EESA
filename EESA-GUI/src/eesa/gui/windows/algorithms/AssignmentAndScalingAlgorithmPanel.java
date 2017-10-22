@@ -258,10 +258,6 @@ public class AssignmentAndScalingAlgorithmPanel extends EESAAlgorithmPanel {
     }
 	@Override
 	public final EESAAlgorithm getAlgorithm() {
-		algorithm.setJAA((JobAssignmentAlgorithm) 
-				jobAssignmentAlgorithmComboBox.getSelectedItem());
-		algorithm.setSSA((SpeedScalingAlgorithm) 
-				speedScalingAlgorithmComboBox.getSelectedItem());
 		return algorithm;
 	}
 }

@@ -96,7 +96,7 @@ public class Simulation implements Stored {
         if (hasJobs() & getTestList().hasTests() & hasProcessor()) {            
             getTestList().runTests();
         } else {
-            throw new AlgorithmRuntimeException();
+            throw new AlgorithmRuntimeException("Need to job, test and processor");
         }
     }
     /**
