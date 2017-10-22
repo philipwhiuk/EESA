@@ -2,17 +2,17 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2017-10-22T19:18:34</date>
-  <millis>1508696314396</millis>
+  <date>2017-10-22T19:27:19</date>
+  <millis>1508696839092</millis>
   <sequence>0</sequence>
-  <logger>com.whiuk.philip.eesa.core.Main</logger>
-  <level>SEVERE</level>
-  <class>com.whiuk.philip.eesa.core.Main</class>
-  <method>launch</method>
-  <thread>11</thread>
-  <message>Unable to load mainClass</message>
+  <logger>eesa.gui.Application</logger>
+  <level>WARNING</level>
+  <class>eesa.gui.Application</class>
+  <method>loadPlugins</method>
+  <thread>1</thread>
+  <message>Unable to find plugin object class</message>
   <exception>
-    <message>java.lang.ClassNotFoundException: com.whiuk.philip.eesa.cl.Application</message>
+    <message>java.lang.ClassNotFoundException: eesa.gui.csv.CSVPlugin</message>
     <frame>
       <class>java.net.URLClassLoader</class>
       <method>findClass</method>
@@ -22,6 +22,11 @@
       <class>java.lang.ClassLoader</class>
       <method>loadClass</method>
       <line>424</line>
+    </frame>
+    <frame>
+      <class>sun.misc.Launcher$AppClassLoader</class>
+      <method>loadClass</method>
+      <line>331</line>
     </frame>
     <frame>
       <class>java.lang.ClassLoader</class>
@@ -38,19 +43,14 @@
       <line>264</line>
     </frame>
     <frame>
-      <class>com.whiuk.philip.eesa.core.Main</class>
-      <method>launch</method>
-      <line>112</line>
+      <class>eesa.gui.Application</class>
+      <method>loadPlugins</method>
+      <line>149</line>
     </frame>
     <frame>
-      <class>com.whiuk.philip.eesa.core.Main</class>
-      <method>main</method>
-      <line>47</line>
-    </frame>
-    <frame>
-      <class>com.whiuk.philip.eesa.Application</class>
-      <method>main</method>
-      <line>10</line>
+      <class>eesa.gui.Application</class>
+      <method>run</method>
+      <line>100</line>
     </frame>
     <frame>
       <class>sun.reflect.NativeMethodAccessorImpl</class>
@@ -72,14 +72,193 @@
       <line>497</line>
     </frame>
     <frame>
-      <class>org.codehaus.mojo.exec.ExecJavaMojo$1</class>
-      <method>run</method>
-      <line>282</line>
+      <class>com.whiuk.philip.eesa.core.Main</class>
+      <method>launch</method>
+      <line>114</line>
     </frame>
     <frame>
-      <class>java.lang.Thread</class>
+      <class>com.whiuk.philip.eesa.core.Main</class>
+      <method>main</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>com.whiuk.philip.eesa.Application</class>
+      <method>main</method>
+      <line>10</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2017-10-22T19:27:19</date>
+  <millis>1508696839102</millis>
+  <sequence>1</sequence>
+  <logger>eesa.gui.Application</logger>
+  <level>WARNING</level>
+  <class>eesa.gui.Application</class>
+  <method>loadPlugins</method>
+  <thread>1</thread>
+  <message>Unable to find plugin object class</message>
+  <exception>
+    <message>java.lang.ClassNotFoundException: eesa.gui.db.DBPlugin</message>
+    <frame>
+      <class>java.net.URLClassLoader</class>
+      <method>findClass</method>
+      <line>381</line>
+    </frame>
+    <frame>
+      <class>java.lang.ClassLoader</class>
+      <method>loadClass</method>
+      <line>424</line>
+    </frame>
+    <frame>
+      <class>sun.misc.Launcher$AppClassLoader</class>
+      <method>loadClass</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>java.lang.ClassLoader</class>
+      <method>loadClass</method>
+      <line>357</line>
+    </frame>
+    <frame>
+      <class>java.lang.Class</class>
+      <method>forName0</method>
+    </frame>
+    <frame>
+      <class>java.lang.Class</class>
+      <method>forName</method>
+      <line>264</line>
+    </frame>
+    <frame>
+      <class>eesa.gui.Application</class>
+      <method>loadPlugins</method>
+      <line>149</line>
+    </frame>
+    <frame>
+      <class>eesa.gui.Application</class>
       <method>run</method>
-      <line>745</line>
+      <line>100</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>497</line>
+    </frame>
+    <frame>
+      <class>com.whiuk.philip.eesa.core.Main</class>
+      <method>launch</method>
+      <line>114</line>
+    </frame>
+    <frame>
+      <class>com.whiuk.philip.eesa.core.Main</class>
+      <method>main</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>com.whiuk.philip.eesa.Application</class>
+      <method>main</method>
+      <line>10</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2017-10-22T19:27:19</date>
+  <millis>1508696839104</millis>
+  <sequence>2</sequence>
+  <logger>eesa.gui.Application</logger>
+  <level>WARNING</level>
+  <class>eesa.gui.Application</class>
+  <method>loadPlugins</method>
+  <thread>1</thread>
+  <message>Unable to find plugin object class</message>
+  <exception>
+    <message>java.lang.ClassNotFoundException: eesa.gui.xml.XMLPlugin</message>
+    <frame>
+      <class>java.net.URLClassLoader</class>
+      <method>findClass</method>
+      <line>381</line>
+    </frame>
+    <frame>
+      <class>java.lang.ClassLoader</class>
+      <method>loadClass</method>
+      <line>424</line>
+    </frame>
+    <frame>
+      <class>sun.misc.Launcher$AppClassLoader</class>
+      <method>loadClass</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>java.lang.ClassLoader</class>
+      <method>loadClass</method>
+      <line>357</line>
+    </frame>
+    <frame>
+      <class>java.lang.Class</class>
+      <method>forName0</method>
+    </frame>
+    <frame>
+      <class>java.lang.Class</class>
+      <method>forName</method>
+      <line>264</line>
+    </frame>
+    <frame>
+      <class>eesa.gui.Application</class>
+      <method>loadPlugins</method>
+      <line>149</line>
+    </frame>
+    <frame>
+      <class>eesa.gui.Application</class>
+      <method>run</method>
+      <line>100</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>497</line>
+    </frame>
+    <frame>
+      <class>com.whiuk.philip.eesa.core.Main</class>
+      <method>launch</method>
+      <line>114</line>
+    </frame>
+    <frame>
+      <class>com.whiuk.philip.eesa.core.Main</class>
+      <method>main</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>com.whiuk.philip.eesa.Application</class>
+      <method>main</method>
+      <line>10</line>
     </frame>
   </exception>
 </record>

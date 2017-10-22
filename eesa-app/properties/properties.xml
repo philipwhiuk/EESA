@@ -4,7 +4,7 @@
     <entry key="logging">true</entry>
     <entry key="loglevel">INFO</entry>
     <entry key="logfile">log.xml</entry>
-    <entry key="mainClass">com.whiuk.philip.eesa.cl.Application</entry>
+    <entry key="mainClass">eesa.gui.Application</entry>
     <entry key="jaaFile">properties/jaa.dat</entry>
     <entry key="ssaFile">properties/ssa.dat</entry>
     <entry key="dbManagerClass">com.whiuk.philip.eesa.db.DatabaseManager</entry>
@@ -12,6 +12,6 @@
     <entry key="guiFile">properties/gui.xml</entry>    
     <entry key="eesaGUIFile">properties/eesaGUI.dat</entry>
     <entry key="help_DefaultURI">http://philip.whiuk.com/eesa/help/</entry>
-    <entry key="help_ClassName">com.whiuk.philip.eesa.gui.help.javahelp.JavaHelpSystem</entry>
+    <entry key="help_ClassName">eesa.gui.help.javahelp.JavaHelpSystem</entry>
     <entry key="help_Filename">help/eesaHelpSet.xml</entry>
 </properties>

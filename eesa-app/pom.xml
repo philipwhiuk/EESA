@@ -27,6 +27,16 @@
   	</dependency>
   	<dependency>
   		<groupId>com.whiuk.philip.eesa</groupId>
+    		<artifactId>eesa-gui</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.whiuk.philip.eesa</groupId>
+    		<artifactId>eesa-gui-javahelp</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.whiuk.philip.eesa</groupId>
     		<artifactId>eesa-core</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
   	</dependency>

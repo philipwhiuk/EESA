@@ -95,7 +95,7 @@ public final class Application extends JFrame implements IApplication {
      * called by the reflexive loader when launched.
      * @param properties 
      */
-    public static void run(final Properties properties) {
+    public static void run(final Properties properties, String[] args) {
         setupHelp(properties);
         loadPlugins(properties);
         try {
