@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Generate Jobs"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="generateButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="previewLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="511" max="32767" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane2" alignment="1" pref="598" max="32767" attributes="0"/>
+                      <Component id="setupLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="JobWeightLabel" alignment="1" pref="114" max="32767" attributes="1"/>
+                              <Component id="JobDensityLabel" alignment="0" pref="114" max="32767" attributes="1"/>
+                              <Component id="JobLengthLabel" alignment="0" pref="114" max="32767" attributes="1"/>
+                              <Component id="jLabel5" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel6" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="JobCountLabel" alignment="1" min="-2" max="-2" attributes="1"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="actualJobRelease" alignment="0" min="0" pref="0" max="32767" attributes="1"/>
+                              <Component id="jLabel1" alignment="0" pref="51" max="32767" attributes="1"/>
+                              <Component id="actualJobCount" alignment="0" pref="51" max="32767" attributes="1"/>
+                              <Component id="actualJobDeadline" alignment="0" pref="51" max="32767" attributes="0"/>
+                              <Component id="actualJobLength" alignment="1" pref="51" max="32767" attributes="1"/>
+                              <Component id="actualJobWeight" alignment="0" pref="51" max="32767" attributes="1"/>
+                              <Component id="actualJobDensity" alignment="0" pref="51" max="32767" attributes="1"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel2" alignment="0" max="32767" attributes="1"/>
+                              <Component id="distributionJobCount" alignment="0" max="32767" attributes="0"/>
+                              <Component id="distributionJobLength" alignment="1" max="32767" attributes="0"/>
+                              <Component id="distributionJobWeight" alignment="0" max="32767" attributes="0"/>
+                              <Component id="distributionJobDensity" alignment="0" max="32767" attributes="0"/>
+                              <Component id="distributionJobRelease" alignment="1" min="-2" pref="78" max="-2" attributes="0"/>
+                              <Component id="distributionJobDeadline" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="minJobRelease" alignment="1" min="0" pref="0" max="32767" attributes="1"/>
+                              <Component id="minJobLength" alignment="0" min="0" pref="0" max="32767" attributes="1"/>
+                              <Component id="minJobDeadline" alignment="0" min="0" pref="0" max="32767" attributes="1"/>
+                              <Component id="minJobWeight" alignment="0" pref="64" max="32767" attributes="1"/>
+                              <Component id="minJobDensity" alignment="0" pref="64" max="32767" attributes="1"/>
+                              <Component id="minJobCount" alignment="1" pref="64" max="32767" attributes="1"/>
+                              <Component id="MinimumLabel" alignment="1" max="32767" attributes="1"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="maxJobDensity" alignment="0" pref="67" max="32767" attributes="0"/>
+                              <Component id="maxJobWeight" alignment="0" pref="67" max="32767" attributes="1"/>
+                              <Component id="maxJobLength" alignment="0" pref="67" max="32767" attributes="0"/>
+                              <Component id="maxJobRelease" alignment="1" min="0" pref="0" max="32767" attributes="1"/>
+                              <Component id="maxJobDeadline" alignment="0" min="0" pref="0" max="32767" attributes="1"/>
+                              <Component id="maxJobCount" alignment="1" pref="67" max="32767" attributes="1"/>
+                              <Component id="MaximumLabel" alignment="1" pref="67" max="32767" attributes="1"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="meanJobDensity" alignment="0" pref="51" max="32767" attributes="1"/>
+                              <Component id="meanJobWeight" alignment="0" pref="51" max="32767" attributes="1"/>
+                              <Component id="meanJobLength" alignment="0" pref="51" max="32767" attributes="1"/>
+                              <Component id="jLabel3" alignment="0" pref="51" max="32767" attributes="1"/>
+                              <Component id="meanJobCount" alignment="0" pref="51" max="32767" attributes="1"/>
+                              <Component id="meanJobRelease" alignment="0" min="0" pref="0" max="32767" attributes="1"/>
+                              <Component id="meanJobDeadline" alignment="0" pref="51" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="varianceJobLength" alignment="0" pref="64" max="32767" attributes="1"/>
+                              <Component id="varianceJobRelease" alignment="0" min="0" pref="0" max="32767" attributes="1"/>
+                              <Component id="varianceJobDeadline" alignment="0" min="0" pref="0" max="32767" attributes="1"/>
+                              <Component id="varianceJobWeight" alignment="0" pref="64" max="32767" attributes="1"/>
+                              <Component id="varianceJobDensity" alignment="0" pref="64" max="32767" attributes="1"/>
+                              <Component id="varianceJobCount" alignment="0" pref="64" max="32767" attributes="1"/>
+                              <Component id="jLabel4" alignment="0" pref="64" max="32767" attributes="1"/>
+                          </Group>
+                          <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="ModeLabel" alignment="0" pref="71" max="32767" attributes="1"/>
+                              <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="rateJobDeadline" alignment="1" min="0" pref="0" max="32767" attributes="1"/>
+                                  <Component id="rateJobRelease" alignment="1" max="32767" attributes="1"/>
+                                  <Component id="rateJobLength" alignment="1" max="32767" attributes="1"/>
+                                  <Component id="rateJobWeight" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="rateJobDensity" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="rateJobCount" alignment="1" min="-2" pref="68" max="-2" attributes="1"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="addButton" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="replaceButton" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="212" max="32767" attributes="0"/>
+              <Component id="generateButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="previewLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="149" max="-2" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="setupLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="MinimumLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="MaximumLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="actualJobCount" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="minJobCount" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="distributionJobCount" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="maxJobCount" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="JobCountLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="actualJobRelease" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="minJobRelease" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="maxJobRelease" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="meanJobRelease" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="varianceJobRelease" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="rateJobRelease" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="distributionJobRelease" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="rateJobDeadline" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="minJobDeadline" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="maxJobDeadline" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="meanJobDeadline" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="varianceJobDeadline" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="actualJobDeadline" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="distributionJobDeadline" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="ModeLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="varianceJobCount" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="rateJobCount" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="meanJobCount" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="actualJobLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="JobLengthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="distributionJobLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="minJobLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="maxJobLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="meanJobLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="varianceJobLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="rateJobLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="1">
+                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                          <Component id="JobWeightLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jScrollPane2" min="-2" pref="99" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="addButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="replaceButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="minJobWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="maxJobWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="meanJobWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="rateJobWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="distributionJobWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="actualJobWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="varianceJobWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                                  <Component id="minJobDensity" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="distributionJobDensity" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="maxJobDensity" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="meanJobDensity" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="varianceJobDensity" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rateJobDensity" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                                  <Component id="actualJobDensity" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JobDensityLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="192" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="maxJobWeight">
+    </Component>
+    <Component class="javax.swing.JTextField" name="actualJobLength">
+    </Component>
+    <Component class="javax.swing.JTextField" name="varianceJobCount">
+    </Component>
+    <Component class="javax.swing.JLabel" name="ModeLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Rate"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MinimumLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Minimum"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="maxJobDensity">
+    </Component>
+    <Component class="javax.swing.JTextField" name="maxJobCount">
+    </Component>
+    <Component class="javax.swing.JTextField" name="meanJobLength">
+    </Component>
+    <Component class="javax.swing.JTextField" name="varianceJobLength">
+    </Component>
+    <Component class="javax.swing.JTextField" name="meanJobWeight">
+    </Component>
+    <Component class="javax.swing.JTextField" name="actualJobWeight">
+    </Component>
+    <Component class="javax.swing.JTextField" name="maxJobLength">
+    </Component>
+    <Component class="javax.swing.JTextField" name="actualJobDensity">
+    </Component>
+    <Component class="javax.swing.JLabel" name="MaximumLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Maximum"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="JobDensityLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Job Density"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Distribution"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="minJobLength">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="distributionJobLength">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="getDistributions()" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="distributionJobLengthActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Mean"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="distributionJobCount">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="getDistributions()" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="distributionJobCountActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="rateJobDensity">
+    </Component>
+    <Component class="javax.swing.JLabel" name="JobCountLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Number of Jobs"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="rateJobWeight">
+    </Component>
+    <Component class="javax.swing.JTextField" name="minJobCount">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Job Deadline Time"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="JobLengthLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Job Length"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Job Release Time"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="JobWeightLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Job Weight"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="setupLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Setup Generation"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="distributionJobWeight">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="getDistributions()" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="distributionJobWeightActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="meanJobDensity">
+    </Component>
+    <Component class="javax.swing.JTextField" name="rateJobCount">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="distributionJobDensity">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="getDistributions()" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="distributionJobDensityActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="rateJobLength">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Variance"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="meanJobCount">
+    </Component>
+    <Component class="javax.swing.JTextField" name="actualJobCount">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Actual"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="varianceJobDeadline">
+    </Component>
+    <Component class="javax.swing.JTextField" name="meanJobDeadline">
+    </Component>
+    <Component class="javax.swing.JTextField" name="maxJobDeadline">
+    </Component>
+    <Component class="javax.swing.JTextField" name="minJobDeadline">
+    </Component>
+    <Component class="javax.swing.JTextField" name="rateJobRelease">
+    </Component>
+    <Component class="javax.swing.JTextField" name="varianceJobRelease">
+    </Component>
+    <Component class="javax.swing.JTextField" name="meanJobRelease">
+    </Component>
+    <Component class="javax.swing.JTextField" name="maxJobRelease">
+    </Component>
+    <Component class="javax.swing.JTextField" name="minJobRelease">
+    </Component>
+    <Component class="javax.swing.JTextField" name="actualJobRelease">
+    </Component>
+    <Component class="javax.swing.JTextField" name="minJobWeight">
+    </Component>
+    <Component class="javax.swing.JTextField" name="varianceJobWeight">
+    </Component>
+    <Component class="javax.swing.JTextField" name="minJobDensity">
+    </Component>
+    <Component class="javax.swing.JButton" name="generateButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Generate"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="generateButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="previewLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Preview Results"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="resultsTable">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="jobsetTableModel" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="varianceJobDensity">
+    </Component>
+    <Component class="javax.swing.JButton" name="addButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add to Jobs"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="replaceButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Replace Existing Jobs"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="replaceButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="actualJobDeadline">
+    </Component>
+    <Component class="javax.swing.JTextField" name="rateJobDeadline">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="distributionJobDeadline">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="getDistributions()" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="distributionJobDeadlineActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="distributionJobRelease">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="getDistributions()" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="distributionJobReleaseActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
